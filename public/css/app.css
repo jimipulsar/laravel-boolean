@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+  margin:auto;
+  padding:0;
+  font-family: Rubik;
+
+}
+
+.mainContainer {
+  width:100%;
+  position: relative;
+  height: 444px;
+  display: flex;
+}
+
+.header-left img {
+  height: 52px;
+  margin-top: -17px;
+  float: left;
+}
+
+.header-left {
+  width: 48%;
+  padding: 20px;
+}
+
+.header-right {
+  width: 53%;
+  display: flex;
+  padding: 19px;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+    overflow: hidden;
+}
+
+.header-right ul li {
+  list-style:none;
+  display:inline-block;
+  padding: 19px;
+  text-transform:uppercase;
+  position: relative;
+  padding-left: 31px;
+}
+
+.header-right a {
+   color: #1B3C59;
+}
+
+.header-right a.active {
+   color: #1B3C59;
+   border-bottom: 2px solid #09b676;
+}
+.header-right ul li a:hover {
+  text-decoration: none;
+  color: #1B3C59;
+}
+
+.header-right ul li a:after {
+  content: '';
+  position: absolute;
+  padding-bottom: 30px;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #09b676;
+  transition: 0.4s;
+}
+
+.header-right ul li a:hover:after {
+  width: 100%;
+}
+
+.iscriviti {
+  width: 11%;
+  float:right;
+  margin-top: 19px;
+}
+
+.iscriviti a{
+  text-transform:uppercase;
+  text-decoration: none !important;
+}
+
+.title-home {
+  float:left;
+  position: relative;
+}
+
+.text-home {
+	float:left;
+}
+.text-home p {
+font-size: 18px;
+color: #1B3C59;
+}
+.slider {float:left;position:relative;height: 406px;padding: 25px;}
+.left-section {
+	float:left;
+	width: 28%;
+	position: relative;
+	margin-left: 113px;
+}
+.right-section {
+	float: right;
+	width: 50%;
+	display: flex;
+}
+
+.right-section img {
+	height: 310px;
+	display: flex;
+}
+
+.partners {
+  width: 100%;
+  background: #1B3C59;
+  text-align: center;
+  padding: 45px;
+  height: 267px;
+}
+.text-partners {
+	text-align:center;
+  color:#fff;
+}
+
+.logo-partners {
+	width: 100%;
+	display: flex;
+	margin-top: 35px;
+}
+
+.logo-partners img {
+  height:44px;
+}
+
+.orange {
+  padding: 14px;
+  background: #ff932b;
+  color: #fff !important;
+  border-radius: 4px;
+}
+
+.orange:hover {
+  background:#ffb065;
+}
+
+.button-home {
+  float:left;
+  background: #1e5478;
+  padding: 24px;
+  color: #fff;
+}
+
+.button-home a {
+	color:#fff;
+  text-transform:uppercase;
+}
+
+.button-home a:hover{
+	color:#fff;
+  text-transform:uppercase;
+  text-decoration:none
+}
+
+.button-home:hover{
+  color:#b4d3ff ;
+  background:#0d5c90;
+
+}
+.main-navbar {
+	width:100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.metodoBoolean {
+  background: #1B3C59;
+  height: 280px;
+}
+
+.text-metodo {
+  text-align:center;
+  color:#fff;
+  padding: 54px;
+}
+.box1 {
+  float:left;
+  padding:30px;
+}
+
+.box2 {
+  float:left;
+  padding:55px;
+}
+.box3 {
+  float:left;
+  padding:55px;
+}
+
+.box3 ul li {
+  list-style:none;
+}
+.box4 {
+  float:left;
+  padding:55px;
+}
+
+.box1 img {
+  height: 109px;
+  padding: 21px;
+}
+
+.fab {
+  font-size:30px;
+  color:#1B3C59;
+  padding:8px;
+}
+
+.pre-footer {
+  width:100%;
+  position:relative;
+  display:flex;
+}
+
+.end-footer {
+  width:100%;
+  position:relative;
+  display:flex;
+  background:#1B3C59;
+  color:#fff;
+  height: 93px;
+  font-size: 12px;
+}
+
+.footer-left {
+  float:left;
+}
+
+.footer-right {
+  float:right;
+}
+
+.corsoBoolean {
+  background: #1B3C59;
+  height: 280px;
+}
+
+.text-corso {
+  text-align:center;
+  color:#fff;
+  padding: 54px;
+}
+
+.privacyPolicy {
+  color: #1B3C59;
+  font-size:16px;
+}
+
+.lavoraConNoi {
+  color: #1B3C59;
+  font-size:16px;
+}
